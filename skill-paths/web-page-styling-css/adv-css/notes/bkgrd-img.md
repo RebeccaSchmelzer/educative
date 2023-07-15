@@ -12,3 +12,8 @@
 - set to no repeat to only show up once
 - repeat-x says only repeat on x-axis from left to right
 - repeat-y is on the y-axis from top to bottom
+
+## sizing bkgrd img
+- using keywords
+    - contain will contain the img within the space required, if more space is left then img is repeated
+    - cover will cover the entire space required while keeping the aspect ratio of the image 
