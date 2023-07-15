@@ -1,0 +1,51 @@
+h1 {
+  border-bottom: 1px solid lightgrey;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+h1 + p {
+  margin-top: 0;
+}
+
+.highlight {
+  background: yellow;
+}
+
+.justify {
+  text-align: justify;
+}
+
+.center {
+  text-align: center;
+}
+
+.caps {
+  text-transform: uppercase;
+}
+
+.indent {
+  text-indent: 2em;
+}
+
+.drop-cap::first-letter {
+  font-weight: bold;
+  font-size: 300%;
+  line-height: 1;
+  float: left;
+  width: 0.9em;
+}
+
+a {
+  color: darkblue;
+  font-weight: bold;
+}
+a:hover {
+  color: teal;
+}
+
+.no-link a {
+  color: red;
+}/*# sourceMappingURL=practiceBox.css.map */
