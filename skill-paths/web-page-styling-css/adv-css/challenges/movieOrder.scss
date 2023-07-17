@@ -6,5 +6,22 @@
     //if ony 2 vals are passed into the shorthand, the first gets assigned to top and bottom
     //second gets to right and left
     color: #fff; //text needs color
-    box-sizing: border-box;
+    box-sizing: border-box; //gets rid of scroller bc doesnt include padding?
+}
+
+.movie__description {
+    font-size: 1.5em; //bigger font pls
+}
+
+.movie__button {
+    display: block; //make the button underneath the p tag.
+    //buttons are inline els - they dont force a line break in the doc
+    //block level els will force a line break and drop to the next line in doc - drop it to next line
+    color: #fff; //text color
+    font-size: 0.7em;
+    padding: 13px;
+    background-color: #eb383b;
+    margin-top: 40px; //create some space
+    border: 0; //by default buttons have a border around them, remove it
+
 }
