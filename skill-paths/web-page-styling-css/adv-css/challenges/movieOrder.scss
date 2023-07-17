@@ -1,0 +1,8 @@
+.movie {
+    width: 100%;
+    background-image: url("http://i.imgur.com/2tiJEnP.png");
+    background-size: cover; //covers the entire area available
+    padding: 20px 20px 20px 190px; //top right bottom left
+    //if ony 2 vals are passed into the shorthand, the first gets assigned to top and bottom
+    //second gets to right and left
+}
