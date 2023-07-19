@@ -1,5 +1,8 @@
 body {
   background-color: #bdf1f6;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.85em;
+  color: rgb(66, 66, 66);
   height: 100vh;
   width: 100vh;
   display: flex;
@@ -11,12 +14,24 @@ main {
   width: 75%;
   background-color: #f2fcfc;
   display: flex;
+  border-radius: 20px;
 }
 
 section, form {
   width: 50%;
+  padding: 70px 50px;
+}
+
+section {
+  text-align: center;
+}
+
+p {
+  line-height: 1.7;
 }
 
 img {
   width: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */
