@@ -1,0 +1,12 @@
+body {
+    background-color: #bdf1f6;
+    height: 100vh;
+    width: 100vh;
+}
+
+main {
+    width: 75%;
+    margin: 0 auto; //correct position for the horizontal
+    //we cant do the vertical using margin top bc we dont know the device the user is using
+    background-color: #f2fcfc;
+}
