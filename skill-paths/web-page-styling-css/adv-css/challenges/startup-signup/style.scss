@@ -8,6 +8,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: 700; //fix this
 }
 
 main {
@@ -28,6 +34,30 @@ section {
     text-align: center; //center the section element
 }
 
+form {
+    h3 {
+        padding-bottom: 20px;
+    }
+    div {
+        padding-bottom: 20px;
+    }
+    input {
+        margin-bottom: 20px;
+    }
+}
+
+input {
+    background-color: #f2fcfc;
+    padding: 10px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.agree {
+    display: flex;
+}
+
 p {
     line-height: 1.7; //only the p tag needs to have spaced out words
 }
@@ -36,4 +66,12 @@ img {
     width: 100px;
     border-radius: 50%;
     margin: 0 auto; //doesnt horizontally center the img
+}
+
+button {
+    border: none;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
 }

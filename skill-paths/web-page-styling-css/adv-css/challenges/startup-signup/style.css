@@ -10,6 +10,11 @@ body {
   align-items: center;
 }
 
+h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
 main {
   width: 75%;
   background-color: #f2fcfc;
@@ -26,6 +31,28 @@ section {
   text-align: center;
 }
 
+form h3 {
+  padding-bottom: 20px;
+}
+form div {
+  padding-bottom: 20px;
+}
+form input {
+  margin-bottom: 20px;
+}
+
+input {
+  background-color: #f2fcfc;
+  padding: 10px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid grey;
+}
+
+.agree {
+  display: flex;
+}
+
 p {
   line-height: 1.7;
 }
@@ -34,4 +61,12 @@ img {
   width: 100px;
   border-radius: 50%;
   margin: 0 auto;
+}
+
+button {
+  border: none;
+  color: white;
+  background-color: blue;
+  padding: 10px;
+  border-radius: 10px;
 }/*# sourceMappingURL=style.css.map */
