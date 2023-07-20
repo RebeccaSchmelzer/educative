@@ -1,0 +1,77 @@
+body {
+    background-color: #bdf1f6;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.85em;
+    color: rgba(66, 66, 66, 1); //style the entire thing's fonts
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h3 {
+    text-transform: uppercase;
+    font-weight: 700; //fix this
+}
+
+main {
+    width: 75%;
+    //margin: 0 auto; //correct position for the horizontal
+    //we cant do the vertical using margin top bc we dont know the device the user is using
+    background-color: #f2fcfc;
+    display: flex;
+    border-radius: 20px;
+}
+
+section, form {
+    width: 50%;
+    padding: 70px 50px;
+}
+
+section {
+    text-align: center; //center the section element
+}
+
+form {
+    h3 {
+        padding-bottom: 20px;
+    }
+    div {
+        padding-bottom: 20px;
+    }
+    input {
+        margin-bottom: 20px;
+    }
+}
+
+input {
+    background-color: #f2fcfc;
+    padding: 10px;
+    display: block;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.agree {
+    display: flex;
+}
+
+p {
+    line-height: 1.7; //only the p tag needs to have spaced out words
+}
+
+img {
+    width: 100px;
+    border-radius: 50%;
+    margin: 0 auto; //doesnt horizontally center the img
+}
+
+button {
+    border: none;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 10px;
+}

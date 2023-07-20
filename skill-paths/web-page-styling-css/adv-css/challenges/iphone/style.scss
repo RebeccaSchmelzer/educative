@@ -1,0 +1,19 @@
+:root {
+    --secondary-bg: rgba(0,0,0,0.9);
+  }
+  
+  body {
+    min-height: 100vh;
+    margin: 0;
+    font-family: serif;
+    background: var(--secondary-bg);
+  }
+  
+  .phone-body {
+    width: 350px;
+    height: 700px;
+    
+    border-radius: 30px;
+    border: 2px solid red;
+  }
+  
