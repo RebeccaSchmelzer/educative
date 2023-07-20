@@ -1,8 +1,12 @@
 :root {
+    --primary-bg: rgba(44,62,60,1);
     --secondary-bg: rgba(0,0,0,0.9);
   }
   
   body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     min-height: 100vh;
     margin: 0;
     font-family: serif;
@@ -15,5 +19,24 @@
     
     border-radius: 30px;
     border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .phone-inner {
+    background: var(--primary-bg);
+    height: 80%;
+    width: 90%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  article {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 0.8rem;
+    border-radius: 5px;
   }
   
