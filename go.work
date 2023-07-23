@@ -5,6 +5,7 @@ use (
 	./skill-paths/go-for-programmers/getting-started-with-go/challenges/fib-nums-slices
 	./skill-paths/go-for-programmers/getting-started-with-go/challenges/fill-aray
 	./skill-paths/go-for-programmers/getting-started-with-go/notes/arrays-slices
+	./skill-paths/go-for-programmers/getting-started-with-go/notes/bytes
 	./skill-paths/go-for-programmers/getting-started-with-go/notes/multidimentionality
 	./skill-paths/go-for-programmers/getting-started-with-go/notes/slices
 )
