@@ -3,5 +3,6 @@ go 1.19
 use (
 	./skill-paths/go-for-programmers/getting-started-with-go/challenges/fib-nums
 	./skill-paths/go-for-programmers/getting-started-with-go/challenges/fill-aray
+	./skill-paths/go-for-programmers/getting-started-with-go/notes/arrays-slices
 	./skill-paths/go-for-programmers/getting-started-with-go/notes/slices
 )
