@@ -1,0 +1,31 @@
+.btn {
+  padding: 2rem 4rem;
+  border: 2px solid var(--color, black);
+  background: transparent;
+  border-radius: 2px;
+}
+.btn:hover {
+  cursor: pointer;
+  background: var(--color, black);
+  color: white;
+}
+
+.btn.red {
+  --color: red;
+}
+
+.btn.blue {
+  --color: blue;
+}
+
+.btn.green {
+  --color: green;
+}
+
+.btn.orange {
+  --color: orange;
+}
+
+.btn.yellow {
+  --color: yellow;
+}/*# sourceMappingURL=style.css.map */
