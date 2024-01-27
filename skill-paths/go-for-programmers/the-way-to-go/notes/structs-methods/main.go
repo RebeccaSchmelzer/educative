@@ -29,3 +29,5 @@ func (tn *TwoInts) AddThem() int { // can be called by pointer to TwoInt type va
 func (tn *TwoInts) AddToParam(param int) int { // can be called by pointer to TwoInt type var.
 	return tn.a + tn.b + param
 }
+
+//the following below is the
