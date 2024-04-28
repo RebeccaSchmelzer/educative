@@ -8,9 +8,9 @@ import (
 func init() {
 	Coffees = CoffeeList{
 		List: []CoffeeDetails{
-			CoffeeDetails{"Latte", 2.5},
-			CoffeeDetails{"Cappuccino", 2.75},
-			CoffeeDetails{"Flat White", 2.25},
+			//CoffeeDetails{"Latte", 2.5},
+			//CoffeeDetails{"Cappuccino", 2.75},
+			//CoffeeDetails{"Flat White", 2.25},
 		},
 	}
 }
