@@ -1,12 +1,11 @@
-go 1.19
+go 1.21.0
 
 use (
 	./skill-paths/go-for-programmers/getting-started-with-go/challenges/fib-nums
 	./skill-paths/go-for-programmers/getting-started-with-go/challenges/fib-nums-slices
 	./skill-paths/go-for-programmers/getting-started-with-go/challenges/fill-aray
 	./skill-paths/go-for-programmers/getting-started-with-go/notes/arrays-slices
-	./skill-paths/go-for-programmers/getting-started-with-go/notes/bytes
 	./skill-paths/go-for-programmers/getting-started-with-go/notes/for-range
 	./skill-paths/go-for-programmers/getting-started-with-go/notes/multidimentionality
-	./skill-paths/go-for-programmers/getting-started-with-go/notes/slices
+	./projects/coffeeshop
 )
